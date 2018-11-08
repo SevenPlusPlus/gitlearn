@@ -29,4 +29,10 @@ git checkout . && git clean -xdf
 # remove file from local repo
 git rm test.txt
 
+# create dev branch and switch to dev branch
+git checkout -b dev
+#or
+git branch dev && git checkout dev
 
+# pull latest repo from branch
+git pull origin dev
