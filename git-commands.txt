@@ -17,4 +17,11 @@ git reset --hard 0asdfsdf
 # show cmd history
 git reflog
 
+# remove all untraced files and dirs
+git clean -df
 
+# reset changed files which not committed
+git checkout .
+
+# reset all local changes
+git checkout . && git clean -xdf
