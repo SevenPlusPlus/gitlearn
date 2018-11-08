@@ -49,3 +49,21 @@ git branch -d dev
 
 # remove remote repo branch dev
 git push origin --delete dev
+
+# save uncommitted local changes on current branch
+git stash
+
+# show stash list
+git stash list
+
+# recover saved stash backto current branch
+git stash pop
+#or
+git stash apply stash@{0}
+
+# git merge with no ff
+git merge --no-ff -m "merged bug fix 101"  issue-101-branch
+
+# push local branch to remote 
+git push origin dev
+
