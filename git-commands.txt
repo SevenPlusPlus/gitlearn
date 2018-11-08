@@ -67,3 +67,7 @@ git merge --no-ff -m "merged bug fix 101"  issue-101-branch
 # push local branch to remote 
 git push origin dev
 
+# create remote branch to local
+git checkout -b dev origin/dev
+# push local commit to remote branch
+git push origin dev
