@@ -44,3 +44,8 @@ git merge dev
 # push merged master to remote repo
 git push origin master
 
+# remove local repo branch dev
+git branch -d dev
+
+# remove remote repo branch dev
+git push origin --delete dev
