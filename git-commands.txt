@@ -36,3 +36,11 @@ git branch dev && git checkout dev
 
 # pull latest repo from branch
 git pull origin dev
+
+# merge dev branch to master
+git checkout master
+git merge dev
+
+# push merged master to remote repo
+git push origin master
+
