@@ -1,0 +1,8 @@
+# init a empty local git repo
+git init
+
+# add file to git local repo
+git add readme.txt
+
+# commit changes to local repo
+git commit -m "wrote a readme file"
