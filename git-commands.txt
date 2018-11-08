@@ -6,3 +6,15 @@ git add readme.txt
 
 # commit changes to local repo
 git commit -m "wrote a readme file"
+
+# show commit log 
+git log --pretty=oneline
+
+# back to last commit version, HEAD means current version, HEAD^ means last version, HEAD^^ means last last version and so on
+git reset --hard HEAD^
+git reset --hard 0asdfsdf
+
+# show cmd history
+git reflog
+
+
