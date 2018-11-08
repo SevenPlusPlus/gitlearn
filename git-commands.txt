@@ -25,3 +25,8 @@ git checkout .
 
 # reset all local changes
 git checkout . && git clean -xdf
+
+# remove file from local repo
+git rm test.txt
+
+
